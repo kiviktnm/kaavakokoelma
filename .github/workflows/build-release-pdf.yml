@@ -25,14 +25,14 @@ jobs:
       - name: Build PDF
         run: |
           mkdir -p dist
-          typst compile main.typ dist/document.pdf
+          typst compile main.typ dist/kaavakokoelma.pdf
 
       - name: Publish GitHub Release (latest)
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
-          name: Latest PDF
+          name: Latest
           body: Automated build from ${{ github.sha }}
-          files: dist/document.pdf
+          files: dist/kaavakokoelma.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
