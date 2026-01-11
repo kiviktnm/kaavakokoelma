@@ -511,7 +511,7 @@ Laskusääntöjä:
   [Konservatiivinen voima], $ ar(F)(ar(r)) = - (partial U(ar(r))) / (partial x) hat(i) - (partial U(ar(r))) / (partial y) hat(j) - (partial U(ar(r))) / (partial z) hat(k) \ = - nabla U(ar(r)) $,
   [Painovoima], $ F_g = G (m_1 m_2) / (r^2) \ ar(F)_g = G (m_1 m_2)/(norm(ar(r))^2) ar(r)/norm(ar(r)) $,
   [Paine], $ P = F_perp / A $,
-  [Paine nesteessä syvyydellä $h$], $ p = p_0 + rho g h $,
+  [Paine nesteessä syvyydellä $h$ \ (hydrostaattinen paine)], $ p = p_0 + rho g h $,
   [Nostevoima], $ B = rho_"neste" V g $,
 )
 
