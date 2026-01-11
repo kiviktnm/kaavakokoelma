@@ -1,0 +1,38 @@
+name: Build & Release PDF
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pdf-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Typst
+        uses: typst-community/setup-typst@v3
+        with:
+          typst-version: latest
+
+      - name: Build PDF
+        run: |
+          mkdir -p dist
+          typst compile main.typ dist/document.pdf
+
+      - name: Publish GitHub Release (latest)
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest PDF
+          body: Automated build from ${{ github.sha }}
+          files: dist/document.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
