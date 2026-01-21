@@ -467,6 +467,7 @@ Laskusääntöjä:
  [Tilavuuden lämpölaajenemiskerroin], $ beta $,
  [Moolimassa], $ M $,
  [Ainemäärä], $ n = m / M $,
+ [Pinnan normaalivektori], $ ar(n) $,
 )
 
 == Liike
@@ -541,6 +542,33 @@ Laskusääntöjä:
   [Entropia \ $k$ on Boltzmannin vakio, $w$ on tilojen lkm], $ S = k ln(w) $,
   [Tilavuuden muutoksen tuoma epäjärestyksen muutos], $ Delta S = integral_(V_1)^V_2 k N (dif V) / V $,
   [Entropian muutos lämpömäärän muutoksen avulla \ tilasta 1 tilaan 2], $ Delta S = integral_(1)^2 (dif Q) / T = m c integral_(T_1)^T_2 (dif T) / T = m c ln(T_2/T_1) $,
+)
+
+== Sähkö ja magnetismi
+
+#t2(
+  [Coulombin laki], $ ar(F)_1 = 1/(4 pi epsilon_0) (q_1 q) / norm(ar(r))^2 ar(r) / norm(r) $,
+  [Sähkökenttä], $ ar(E) = ar(F) / q $,
+  [Dipolimomentti], $ p = q r  $,
+  [Dipolin kokonäisvääntömomentti], $ ar(tau) = ar(x) times ar(E) $,
+  [Sähködipolin potentiaalienergia], $ U = - ar(p) dot ar(E) $,
+  [Sähkövuo], $ Phi_E = ar(E) dot ar(A) = ar(E) dot A ar(n) = E_perp A $,
+  [Sähkövuo (epätasainen)], $ Phi_E = integral ar(E) dot dif ar(A) = integral E_perp dif A $,
+  [Pistevarauksen vuo pallopinnan läpi], $ Phi_E = integral ar(E) dot dif ar(A) = E A = q/(4 pi epsilon_0 r^2) (4 pi r^2) = q / epsilon_0 $,
+  [Gaussin laki], $ Phi_E = integral.cont ar(E) dot dif ar(A) = Q_"encl" / epsilon_0 $,
+  [Pistevarauksen sähkökenttä], $ ar(E) = 1/(4 pi epsilon_0) q/r^2 hat(r) $,
+  [Äärettömän viivavarauksen sähkökenttä, \ $lambda$ on varaus / pituus], $ ar(E) = 1/(2 pi epsilon_0) lambda/r hat(r) $,
+  [Äärettömän tasovarauksen sähkökenttä, \ $sigma$ on varaus / pinta-ala], $ ar(E) = sigma / ( 2 epsilon_0) ar(n) = 1/(2 epsilon_0) sigma / (r_0) hat(r) $,
+  [$R$-säteisen varauspallon (ei johdepallo) sähkökenttä], $ cases(ar(E) = 1/(4 pi epsilon_0) Q/r^2 hat(r)&", " r>R, ar(E) = 1/(4 pi epsilon_0) (Q r)/R^3 hat(r)&", " r<R) $,
+  [Johdepinnan paikallinen sähkökenttä], $ E_perp = sigma / epsilon_0 $,
+  [Pistevarauksen $q_0$ potentiaalienergia], $ U = 1/(4 pi epsilon_0) (q q_0) / r $,
+  [Potentiaali], $ V = U / q_0 $,
+  [Potentiaalin superpositio], $ V = 1 / (4 pi epsilon_0) sum_i q_i / r_i ( = 1 / (4 pi epsilon_0) integral (dif q) / r ) $,
+  [Jatkuvan varausjakauman potentiaali], $ V = 1/(4 pi epsilon_0) integral (dif q) / r $,
+  [Sähkökentän tekemä työ], $ W_(a -> b) = integral_a^b ar(F) dot dif ar(l) = q_0 integral_a^b ar(E) dif ar(l) = q_1 V_(a b) $,
+  [Jännite], $ V_(a b) = integral_a^b ar(E) dot dif ar(l) ( = integral_(r_a)^(r_b) E_r dif r ) $,
+  [Potentiaaligradientti], $ ar(E) = - nabla V = -( (partial V) / (partial x) hat(i) + (partial V) / (partial y) hat(j) + (partial V) / (partial z) hat(k)  ) $,
+  [Etäisyys pallon keskipisteestä tai sylinterin akselista], $ ar(E) (r) = - nabla V(r) = - (partial V) / (partial r) hat(r) $,
 )
 
 == Momentti
