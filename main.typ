@@ -560,6 +560,14 @@ Laskusääntöjä:
   [Äärettömän tasovarauksen sähkökenttä, \ $sigma$ on varaus / pinta-ala], $ ar(E) = sigma / ( 2 epsilon_0) ar(n) = 1/(2 epsilon_0) sigma / (r_0) hat(r) $,
   [$R$-säteisen varauspallon (ei johdepallo) sähkökenttä], $ cases(ar(E) = 1/(4 pi epsilon_0) Q/r^2 hat(r)&", " r>R, ar(E) = 1/(4 pi epsilon_0) (Q r)/R^3 hat(r)&", " r<R) $,
   [Johdepinnan paikallinen sähkökenttä], $ E_perp = sigma / epsilon_0 $,
+  [Pistevarauksen $q_0$ potentiaalienergia], $ U = 1/(4 pi epsilon_0) (q q_0) / r $,
+  [Potentiaali], $ V = U / q_0 $,
+  [Potentiaalin superpositio], $ V = 1 / (4 pi epsilon_0) sum_i q_i / r_i ( = 1 / (4 pi epsilon_0) integral (dif q) / r ) $,
+  [Jatkuvan varausjakauman potentiaali], $ V = 1/(4 pi epsilon_0) integral (dif q) / r $,
+  [Sähkökentän tekemä työ], $ W_(a -> b) = integral_a^b ar(F) dot dif ar(l) = q_0 integral_a^b ar(E) dif ar(l) = q_1 V_(a b) $,
+  [Jännite], $ V_(a b) = integral_a^b ar(E) dot dif ar(l) ( = integral_(r_a)^(r_b) E_r dif r ) $,
+  [Potentiaaligradientti], $ ar(E) = - nabla V = -( (partial V) / (partial x) hat(i) + (partial V) / (partial y) hat(j) + (partial V) / (partial z) hat(k)  ) $,
+  [Etäisyys pallon keskipisteestä tai sylinterin akselista], $ ar(E) (r) = - nabla V(r) = - (partial V) / (partial r) hat(r) $,
 )
 
 == Momentti
