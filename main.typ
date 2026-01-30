@@ -534,6 +534,7 @@ Laskusääntöjä:
   [Van Der Waalsin yhtälö \ $a$ ja $b$ kokeelliset vakiot], $ (p + a (n/V)^2)(V - n b) = n R T $,
   [Paineen tekemä työ], $ W = integral_(x_1)^(x_2) p A dif x = integral_(V_1)^(V_2) p dif V $,
   [Sisäenergian muutos], $ Delta U = Q - W $,
+  [Adiabaattinen prosessi \ (ei lämmönvaihtoa ympäristön kanssa) \ $gamma = (f+2)/f$, $f$ on kaasun vapausaste] ,$ P_1 V_1^gamma = P_2 V_2^gamma $ ,
   [Lämpövoimakoneen hyötysuhde], $ e = W / Q_H = 1 - abs(Q_C / Q_H) $,
   [Hiukkasten nopeusjakauma kaasussa, $k$ on Boltzmannin vakio], $ f(v) = 4 pi (m/(2 pi k T))^(3/2) v^2 e^(-(m v^2)/(2 k T)) $,
   [$N$ hiukkasen systeemi, $n$ vapausastetta], $ Q = N n/2 k Delta T $,
