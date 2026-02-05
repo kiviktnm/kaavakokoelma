@@ -589,6 +589,16 @@ Laskusääntöjä:
   [Vastusten rinnankytkentä], $ R = sum_i^N 1/R_i $,
   [Sisäinen resistanssi], $ V = V_"lähd" - I R_"sis" = Epsilon - I r $,
   [Teho sähköpiirissä], $ P = V_(a b) I = I^2 R = V^2_(a b) / R = (dif W) / (dif T) $,
+  [Magneettittinen voima liikkuvaan varaukseen], $ ar(F) = q ar(v) times ar(B) $,
+  [Sähkömagneettinen voima liikkuvaan varaukseen], $ ar(F) = q( ar(E) + ar(v) times ar(B)) $,
+  [Magneettivuo], $ Phi_B = integral ar(B) dot dif ar(A) = integral B_perp dif A $,
+  [Gaussin laki magnetismissa], $ integral.cont ar(B) dot dif ar(A) = 0 $,
+  [Suoraan johtimeen (johtimen pituus+virran suunta $ar(l)$) tasaisessa magneettikentässä kohdistuva voima], $ ar(F) = I ar(l) times ar(B) $,
+  [Käyräviivaiseen johtimeen tasaisessa magneettikentässä kohdistuva voima], $ ar(F) = integral.cont I dif ar(l) times ar(B) $,
+  [Magneettidipolin vääntömomentti tasaisessa magneettikentässä, $ar(mu)=I ar(A)$ on oikean käden sääntö sovellettuna virran kientosuunnalle], $ ar(tau) = ar(mu) times ar(B), \ tau = mu B sin(theta) $,
+  [Magneettidipolin potentiaalienergia], $ U_mu = - ar(mu) dot ar(B) $,
+  [Magneettinen momenttivektorin suuruus kelalle ($N$ kierrosta)], $ mu = N I A $,
+  [Hallin ilmiö], $ n q = - (J_x B_y) / (E_z) $
 )
 
 == Momentti
