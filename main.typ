@@ -598,7 +598,15 @@ Laskusääntöjä:
   [Magneettidipolin vääntömomentti tasaisessa magneettikentässä, $ar(mu)=I ar(A)$ on oikean käden sääntö sovellettuna virran kientosuunnalle], $ ar(tau) = ar(mu) times ar(B), \ tau = mu B sin(theta) $,
   [Magneettidipolin potentiaalienergia], $ U_mu = - ar(mu) dot ar(B) $,
   [Magneettinen momenttivektorin suuruus kelalle ($N$ kierrosta)], $ mu = N I A $,
-  [Hallin ilmiö], $ n q = - (J_x B_y) / (E_z) $
+  [Hallin ilmiö], $ n q = - (J_x B_y) / (E_z) $,
+  [Tyhjiön magneettinen permeabilisuus], $ mu_0 $,
+  [Liikkuvan pistevarauksen muodostama magneettikenttä], $ ar(B) = mu_0 / (4 pi) (q ar(v) times hat(r))/(r^2) $,
+  [Tyhjiön permeabilisuuden ja permittiivisyyden suhde valonnopeuteen tyhiössä], $ 1/sqrt(mu_0 epsilon_0) = c $,
+  [Suljetun virtapiirin kokonaiskenttä (Biot-Savart)], $ ar(B) = mu_0 / (4 pi) integral.cont (I dif ar(l) times hat(r))/(r^2) $,
+  [Pitkän suoran johtimen magneettikenttä], $ B = (mu_0 I) / (2 pi r) $,
+  [Kelan magneettikenttä silmukan akselilla($N$ kierrosta, $a$ halkaisija)], $ B = (mu_0 N I a^2) / (2 (x^2 + a^2)^(3/2)) $,
+  [Lävistyslaki (Amperen laki)], $ integral.cont ar(B) dot dif ar(l) = mu_0 I_"encl" $,
+  [Aineen permeabilisuus ($K_m$ suhteellinen permeabilisuus)], $ mu = K_m mu_0 $,
 )
 
 == Momentti
