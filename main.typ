@@ -627,6 +627,12 @@ Laskusääntöjä:
   [Liikemäärävirtaama], $ ((dif p) slash (dif t))/A = S / c = (E B) / (mu_0 c) $,
   [Säteilypaine, aalto absorboituu], $ p_"rad" = (chevron.l dif p slash dif t chevron.r) / A = S_"av" / c = I / c  $,
   [Säteilypaine, aalto heijastuu], $ p_"rad" = (2 S_"av") / c = (2 I) / c  $,
+  [Kaksoisraon aaltojen matkaeron approksimaatio], $ r_2 - r_1 approx d sin theta $,
+  [Interferenssimaksimien paikat (oletus $sin theta = tan theta$)], $ y_m approx R (m lambda) / d $,
+  [Kahden lähteen interferenssin intensiteetti], $ I = I_0 cos^2 Phi / 2 approx I_0 cos^2 (pi y d) / (lambda R) $,
+  [Kohtisuoran heijastuksen heijastuskerroin ($pi$ vaihe-ero heijastuessa kun $Tau_"e"<0$)], $ Tau_"e" = E_"heijastunut" / E_"tuleva" = (n_a - n_b) / (n_a + n_b) $,
+  [Yhden raon diffraktion intensiteetti], $ I = I_0 ( sin((pi a)/lambda sin theta) / ((pi a)/lambda sin theta) )^2 $,
+  [Kromaattinen erotuskyky], $ R = lambda / (Delta lambda) = N m $,
 )
 
 == Momentti
